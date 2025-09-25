@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><% if (page.title) { %><%= page.title %> · <% } %><%= config.title %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <% if (config.description) { %>
+  <meta name="description" content="<%= config.description %>">
+  <% } %>
+  <link rel="icon" type="image/svg+xml" href="<%- url_for('/images/niu.svg') %>">
+  <link rel="stylesheet" href="<%- url_for('/css/style.css') %>">
+</head>
+<body>
+  <main class="content">
+    <%- body %>
+  </main>
+</body>
+</html>
