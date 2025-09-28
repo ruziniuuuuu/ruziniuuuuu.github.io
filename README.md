@@ -1,3 +1,3 @@
 # Chenyu Cao
 
-A minimal Hexo-powered landing page.
+My Homepage: [ruziniuuuuu.github.io](https://ruziniuuuuu.github.io/)
