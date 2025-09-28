@@ -2,6 +2,12 @@
   <img class="profile__photo" src="<%- url_for(config.profile.photo) %>" alt="Portrait of <%= config.profile.name %>">
   <h1 class="profile__name"><%= config.profile.name %></h1>
   <p class="profile__tagline"><%= config.profile.tagline %></p>
+  <a class="profile__blog-link" href="<%- url_for('/blog/') %>">
+    <span>Blog</span>
+    <svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true">
+      <path fill="currentColor" d="M5.5 12a1 1 0 0 1 1-1h8.59l-2.3-2.3a1 1 0 1 1 1.42-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.42-1.4l2.3-2.3H6.5a1 1 0 0 1-1-1Z"/>
+    </svg>
+  </a>
   <ul class="profile__links">
     <li>
       <a class="profile__icon" href="mailto:<%= config.profile.email %>">

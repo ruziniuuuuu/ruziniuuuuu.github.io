@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="<%- url_for('/css/style.css') %>">
 </head>
 <body>
-  <main class="content">
+  <main class="content<%= page.layout === 'page' ? ' content--wide' : '' %>">
     <%- body %>
   </main>
 </body>
